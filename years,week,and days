@@ -1,0 +1,17 @@
+# Input the total number of days
+total_days = int(input("Enter the number of days: "))
+
+# Calculate the number of years
+years = total_days // 365
+print("Years:", years)
+
+# Calculate the remaining days after converting to years
+remaining_days = total_days % 365
+
+# Calculate the number of weeks from the remaining days
+weeks = remaining_days // 7
+print("Weeks:", weeks)
+
+# Calculate the remaining days after converting to weeks
+days = remaining_days % 7
+print("Days:", days)
